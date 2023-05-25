@@ -1,11 +1,10 @@
-import BasicTable from './components/BasicTable.js';
-import FilteringTable from './components/FilteringTable.js';
-import SortingTable from './components/SortingTable.js';
+import PaginationTable from "./components/PaginationTable";
+
 
 function App() {
   return (
     <div className="App">
-      <FilteringTable/>
+      <PaginationTable/>
     </div>
   );
 }
